@@ -1,0 +1,9 @@
+<section ng-controller="UserController">
+	<h1>Hello World {{email}}</h1>
+	<input type="text" ng-model="email">
+	<ul>
+		<li ng-repeat="user in users">
+			<a href="#">{{user.name}}</a>
+		</li>
+	</ul>
+</section>
